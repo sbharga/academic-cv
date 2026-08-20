@@ -1,0 +1,3 @@
+*.pdf
+!preview.pdf
+.DS_Store

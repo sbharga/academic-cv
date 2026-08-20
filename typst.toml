@@ -1,0 +1,17 @@
+[package]
+name = "academic-cv"
+version = "0.1.0"
+entrypoint = "lib.typ"
+authors = ["sbharga"]
+license = "MIT"
+description = "A black-and-white academic CV for multi-page documents: dated entries, numbered publication lists, running headers."
+repository = "https://github.com/sbharga/academic-cv"
+keywords = ["cv", "resume", "academic", "curriculum vitae", "publications"]
+categories = ["cv"]
+compiler = "0.13.0"
+exclude = ["README.md"]
+
+[template]
+path = "template"
+entrypoint = "main.typ"
+thumbnail = "thumbnail.png"
